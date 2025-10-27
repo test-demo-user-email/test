@@ -1,0 +1,50 @@
+% !TeX spellcheck = si_SI
+%Urejanje platnic, naslovnice, UDK, povzetka in kazal
+%
+% PLATNICA
+\input{prveStrani/platnica}
+\newpage
+
+% TRI PRAZNE STRANI
+\hypersetup{pageanchor=false} % no page anchors for the empty-pagestyle pages
+\mbox{}\thispagestyle{empty}
+\newpage
+\mbox{}\thispagestyle{empty}
+\newpage
+\mbox{}\thispagestyle{empty}
+\newpage
+
+
+% NOTRANJA NASLOVNICA
+\input{prveStrani/naslovnica}
+\newpage
+\mbox{}\thispagestyle{empty}
+\newpage
+
+% PROSTOR ZA ODLOČBO
+\thispagestyle{empty}
+[Prostor za odločbo o potrjeni temi doktorskega dela s strani UL.]
+\newpage
+\mbox{}\thispagestyle{empty}
+\newpage
+\hypersetup{pageanchor=true} % no page anchors for the empty-pagestyle pages
+
+% PROSTOR ZA ZAHVALO
+\pagestyle{fancy_nohead}
+\input{prveStrani/zahvala}
+\newpage
+\mbox{}
+\newpage
+
+% AVTORSKE PRAVICE
+\input{prveStrani/avtorskePravice}
+\newpage
+\mbox{}
+\newpage
+
+% IZVLEČKI IN UDK
+\input{prveStrani/izvlecek}
+\newpage
+
+% KAZALA
+\input{prveStrani/kazala} 
